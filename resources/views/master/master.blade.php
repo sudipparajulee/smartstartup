@@ -69,7 +69,6 @@
                     <li class="active"><a href="">उद्यमी कथा</a></li>
                     <li class="active"><a href="">Startup Academy</a></li>
                     <li class="active"><a href="">Startup Services</a></li>
-                    <li class="active"><a href="">Contact</a></li>
                     <li class="active"><a href="">Find Investor</a></li>
                     <!-- <li class="active"><a href="quiz">Play Quiz<img src="assets/images/playquiz.gif" style="padding: -12px; margin: -12px; height: 40px;"></a></li> -->
                     <li> </li>

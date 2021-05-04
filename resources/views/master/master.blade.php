@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
+     <!-- <meta http-equiv="refresh" content="5"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SmartStartup Chitwan ">
     <meta name="keywords" content="SmartStartup, Smart Startup, smart, startup, smart startup chitwan, smart chitwan, startup chitwan">
@@ -49,13 +49,14 @@
         <div class="container-fluid">
             <div class="navbar-header" style="padding-left: 4%;">
                 <!-- Button for smallest screens -->
-                <button type="button" class="navbar-toggle" style="background-color: #2e3092; " data-toggle="collapse" data-target=".navbar-collapse" ><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <button type="button" class="navbar-toggle" style="background-color: #2e3092; " data-toggle="collapse" data-target="#main-nav" ><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 <a class="navbar-brand" href="{{route('Home')}}" >
                     <img src="{{asset('images/logo.png')}}" style="margin-top: -30px;" height="80" alt="SmartStartup LOGO"></a>
             </div>
-            <div class="navbar-collapse collapse font17">
+            <div id="main-nav" class="navbar-collapse collapse font17">
                 <ul class="nav navbar-nav pull-right">
-                    <li class="active"><a href="{{route('Home')}}">सचेत उद्यमी</a></li>
+                    <li class="active"><a href="{{route('Home')}}"><i class="fa fa-home "></i></a></li>
+                    <li class="active"><a href="">सचेत उद्यमी</a></li>
                     
                     <!-- <li class="dropdown active">
                         <a href="" data-toggle="dropdown" data-target="dropdown-menu">Team <b class="caret"></b></a>
@@ -116,7 +117,7 @@
                     <div class="col-md-4 panel contact">
                         <h3 class="panel-title">Contact Info</h3>
                         <div class="importantlinks">
-                            <p>Get in touch with AIMS</p>
+                            <p>Get in touch with SmartStartup</p>
                             <ul>
                                 <li><i class="fa fa-phone"></i> 056-594473, 9855053779</li>
                                 <li><a><i class="fa fa-envelope-o"></i> info@smartstartup.com.np</a></li>
@@ -167,8 +168,7 @@
         </div>
 
     </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
     <!-- <script src="{{asset('myassets/js/custom.js')}}"></script>
     <script src="{{asset('myassets/js/modernizr-latest.js')}}"></script>  
     <script src="{{asset('myassets/js/jquery.cslider.js')}}"></script>
@@ -177,15 +177,18 @@
     <script src="{{asset('myassets/js/wow.js')}}"></script>
     <script src="{{asset('myassets/js/animate.js')}}"></script> -->
    
-   <script type="text/javascript" src="{{asset('myassets/js/jquery-1.11.0.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('myassets/js/bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('myassets/js/jquery-scrolltofixed.js')}}"></script>
-<script type="text/javascript" src="{{asset('myassets/js/jquery.nav.js')}}"></script> 
-<script type="text/javascript" src="{{asset('myassets/js/jquery.easing.1.3.js')}}"></script>
-<script type="text/javascript" src="{{asset('myassets/js/jquery.isotope.js')}}"></script>
-<script src="{{asset('myassets/js/fancybox/jquery.fancybox.pack.js')}}" type="text/javascript"></script> 
-<script type="text/javascript" src="{{asset('myassets/js/wow.js')}}"></script> 
-<script type="text/javascript" src="{{asset('myassets/js/custom.js')}}"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="{{asset('myassets/js/modernizr-latest.js')}}"></script>  
+    <script src="{{asset('myassets/js/jquery.cslider.js')}}"></script>
+    <script src="{{asset('myassets/js/fancybox/jquery.fancybox.pack.js')}}" type="text/javascript"></script>
+    <script src="{{asset('myassets/js/jquery.easing.1.3.js')}}" type="text/javascript"></script>
+    <script src="{{asset('myassets/js/jquery-scrolltofixed.js')}}" type="text/javascript"></script>
+    <script src="{{asset('myassets/js/bootstrap.min.js')}}" type="text/javascript"></script>
+   
+    <script src="{{asset('myassets/js/animate.js')}}"></script>
+     <script src="{{asset('myassets/js/wow.js')}}"></script>
+    <script src="{{asset('myassets/js/custom.js')}}"></script>
 
 </body>
 </html>
